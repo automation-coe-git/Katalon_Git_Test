@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Location</name>
+   <tag></tag>
+   <elementGuidId>64f044f0-7627-4a80-b12f-43501c56ed0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Experiences'])[1]/following::div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._fmav2so</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_fmav2so</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Location</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js-focus-visible&quot;]/body[@class=&quot;with-new-header touch&quot;]/div[6]/div[1]/div[1]/div[2]/div[@class=&quot;_16grqhk&quot;]/div[@class=&quot;_siy8gh&quot;]/div[@class=&quot;_1gw6tte&quot;]/header[@class=&quot;_1uf458w8&quot;]/div[@class=&quot;_eqf9j0&quot;]/div[@class=&quot;_1c0ocmt&quot;]/div[@class=&quot;_66ju322&quot;]/div[1]/div[@class=&quot;_1lveqk8&quot;]/div[1]/form[@class=&quot;_1keztfl&quot;]/div[@class=&quot;_1rrb221v&quot;]/div[@class=&quot;_1c7nvmy&quot;]/div[@class=&quot;_1jkbosm7&quot;]/div[1]/div[@class=&quot;_4w946cw&quot;]/label[@class=&quot;_figjfd1&quot;]/div[@class=&quot;_gor68n&quot;]/div[@class=&quot;_fmav2so&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Online Experiences'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Experiences'])[1]/following::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Baga, Goa'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bangalore, Karnataka'])[1]/preceding::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Location']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

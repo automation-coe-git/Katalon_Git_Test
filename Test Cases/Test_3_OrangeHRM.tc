@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_3_OrangeHRM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8982fdcb-52af-4ec1-94b2-c7cdd68836a2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>863444cd-f51f-416b-b9eb-37de242d323d</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05578532-4dc6-4f21-8f5e-4bd5871600cc</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

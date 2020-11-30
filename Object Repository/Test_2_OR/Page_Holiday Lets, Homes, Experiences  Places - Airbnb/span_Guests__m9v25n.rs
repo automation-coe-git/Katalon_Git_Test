@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Guests__m9v25n</name>
+   <tag></tag>
+   <elementGuidId>10bb45c6-fc17-46d5-a948-ad2d8a928c2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span._m9v25n</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_m9v25n</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;js-focus-visible&quot;]/body[@class=&quot;with-new-header touch&quot;]/div[6]/div[1]/div[1]/div[2]/div[@class=&quot;_16grqhk&quot;]/div[@class=&quot;_siy8gh&quot;]/div[@class=&quot;_1gw6tte&quot;]/header[@class=&quot;_1uf458w8&quot;]/div[@class=&quot;_eqf9j0&quot;]/div[@class=&quot;_1c0ocmt&quot;]/div[@class=&quot;_66ju322&quot;]/div[1]/div[@class=&quot;_1lveqk8&quot;]/div[1]/form[@class=&quot;_1keztfl&quot;]/div[@class=&quot;_1rrb221v&quot;]/div[@class=&quot;_1c7nvmy&quot;]/div[@class=&quot;_1yulsurh&quot;]/div[@class=&quot;_w64aej&quot;]/button[@class=&quot;_1mzhry13&quot;]/span[@class=&quot;_163rr5i&quot;]/span[@class=&quot;_m9v25n&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+   </webElementXpaths>
+</WebElementEntity>
