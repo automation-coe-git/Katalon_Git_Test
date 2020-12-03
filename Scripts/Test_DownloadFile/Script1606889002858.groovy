@@ -14,16 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://www.learningcontainer.com/sample-excel-data-for-analysis/')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.click(findTestObject('Selenium/LinkDownload'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), 
-    'mobile')
-
-WebUI.setText(findTestObject('Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), '')
+WebUI.closeBrowser()
 

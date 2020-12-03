@@ -15,12 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/')
+WebUI.openBrowser(GlobalVariable.url)
 
 WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'),Username)
-WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Username_txtPassword'), Password)
+WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.userName)
+
+WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.password)
+
 /*for (def rowNum = 1; rowNum <= findTestData('TestData/TestData').getRowNumbers(); rowNum++) {
     WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), findTestData('TestData/TestData').getValue(
             1, rowNum))
@@ -30,13 +32,7 @@ WebUI.setText(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Username_txtPass
 
     Thread.sleep(3000)
 }*/
-
-new_Login_btn = WebUI.modifyObjectProperty(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Password_Submit'), 'xpath', 'equals', '//*[@id="btnLogin"]', false)
-WebUI.click(new_Login_btn)
-
-//WebUI.click(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Password_Submit'))
-
-WebUI.takeScreenshot("C:\\Users\\Mukesh\\Downloads\\Test_Download\\screenshot.jpeg")
+WebUI.click(findTestObject('OrangeHRM_OR/Page_OrangeHRM/input_Password_Submit'))
 
 WebUI.waitForElementAttributeValue(findTestObject('OrangeHRM_OR/Page_OrangeHRM/a_Welcome Paul'), 'text', 'Welcome Paul', 
     2, FailureHandling.STOP_ON_FAILURE)

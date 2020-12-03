@@ -27,10 +27,10 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>Edge Chromium</runConfigurationId>
+            <profileName>QA</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/TestSuite_OrangeHRM</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>

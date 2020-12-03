@@ -16,14 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', '')
 
-WebUI.openBrowser('')
+Windows.click(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+Windows.rightClick(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), 
-    'mobile')
+Windows.setText(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'), 'Welcome to katalon')
 
-WebUI.setText(findTestObject('Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), '')
+Windows.clearText(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
 

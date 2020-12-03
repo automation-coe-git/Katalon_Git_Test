@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.apache.xerces.impl.xs.identity.Selector as Selector
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -14,16 +15,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.switchToFrame(findTestObject('Selenium/Frame1'), 2)
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), 
-    'mobile')
+WebUI.click(findTestObject('Selenium/Link_org.openqa.selenium'))
 
-WebUI.setText(findTestObject('Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), '')
+WebUI.switchToDefaultContent()
+
+WebUI.closeBrowser()
 

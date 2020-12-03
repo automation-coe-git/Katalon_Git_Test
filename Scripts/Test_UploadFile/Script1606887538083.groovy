@@ -14,16 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.openBrowser('')
+WebUI.navigateToUrl('http://omayo.blogspot.com/')
 
-WebUI.navigateToUrl('https://www.amazon.com/')
+WebUI.uploadFile(findTestObject('Selenium/upLoad'), 'C:\\Users\\Mukesh\\Downloads\\Katalon_Studio_Windows_64-7.7.2\\Katalon_Studio_Windows_64-7.7.2\\replay_pid10928.log')
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), 
-    'mobile')
+WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('Page_Amazon.com Online Shopping for Electro_1f0c68/input_All_field-keywords'), '')
+WebUI.closeBrowser()
 

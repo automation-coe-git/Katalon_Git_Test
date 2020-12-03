@@ -12,7 +12,7 @@
    <properties>
       <entry>
          <key>readAsString</key>
-         <value>false</value>
+         <value>true</value>
       </entry>
    </properties>
    <query></query>
