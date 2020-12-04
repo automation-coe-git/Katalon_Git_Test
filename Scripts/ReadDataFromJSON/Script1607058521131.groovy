@@ -13,16 +13,18 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
+import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\System32\\notepad.exe', '')
+def slurper=new JsonSlurper()
+FileInputStream file=new FileInputStream("C:\\Users\\Mukesh\\Desktop\\testDataKatalon.json")
 
-Windows.click(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
-
-Windows.rightClick(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
-
-Windows.setText(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'), 'Welcome to katalon')
-
-Windows.clearText(findWindowsObject('Object Repository/Selenium/NotepadOR/Edit'))
-
+def InputJSON = new JsonSlurper().parse(file)
+List userName= InputJSON.data.userName
+List passWord=InputJSON.data.passWord
+for(int i=0;i<userName.size();i++){
+	println(userName.get(i))
+	println(passWord.get(i))
+}
